@@ -1,0 +1,128 @@
+.horizontal-line {
+    border-bottom: 2px solid #333;
+    margin-top: 10px; 
+  }
+
+ 
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the circle container */
+  .circle-container {
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 50px;
+  }
+  
+  /* Style for each circle item (image + name) */
+  .circle-item {
+    text-align: center; 
+  }
+  
+  /* Style for each circle image */
+  .circle {
+    width: 135px; 
+    height: 135px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 5px; 
+    transition: transform 0.3s ease;
+  }
+
+  .circle img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+  }
+  .circle:hover img{
+    transform: scale(1.1);
+  }
+  
+  /* Style for each name */
+  .name {
+    margin: 0;
+    font-size: 1em;
+    color: #333; 
+  }
+  .overlay-box1 {
+    position: absolute;
+   margin-left: 280px;
+  margin-top: -270px;
+ align-items: center;
+    transform: translate(-50%, -50%);
+    background-color: rgba(4, 72, 61, 0.8); 
+    padding: 10px;
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    color: white;
+  }
+
+  .image-container {
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.image-container:hover img {
+    transform: scale(1.2); 
+}
+ 
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(66, 184, 152, 0.8); 
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  margin-bottom: 15px;
+  width: 130px;
+  box-sizing: border-box;
+}
+
+  
+  footer {
+    background-image: url('//www.chumbak.com/cdn/shop/files/14_footer_d0d56a2f-2df7-41c0-a78b-25436a2cdabc.jpg?v=1695893379 '); /* Replace with the path to your background image */
+    background-size: cover;
+    color: #fff; /* Text color on top of the background image */
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    
+  }
+
+  .pic-containerimg {
+    width: 100%;
+    /* height: 100%; */
+    transition: transform 0.3s ease-in-out; 
+}
+
+.pic-container:hover img {
+    transform: scale(1.2); 
+}
+ 
+
+      
